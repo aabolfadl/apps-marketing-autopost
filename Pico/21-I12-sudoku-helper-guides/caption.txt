@@ -1,0 +1,12 @@
+Let Pico show you where 👀
+
+1️⃣ Tap any number on the board: Pico shades where it already sits and every row, column and box it can’t go in
+2️⃣ Every pencilled copy of that number turns bold
+3️⃣ Show mistakes flags errors in red, or switch it off for a purist solve
+4️⃣ Limit mistakes ends a run after 1 to 10 wrong entries
+
+Find it all under the sliders button in any sudoku.
+
+Free on the App Store. Link in bio, or search “Pico: Daily Puzzles”.
+
+#PicoPuzzles #DailyPuzzle #PuzzleGames #BrainGames #Sudoku #SudokuPuzzle #SudokuTips

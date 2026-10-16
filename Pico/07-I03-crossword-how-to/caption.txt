@@ -1,0 +1,12 @@
+Crossword, the Pico way ✏️
+
+📐 Five sizes: Bitsy 5×5, Mini 7×7, Midi 9×9, Biggie 11×11, Maxi 15×15
+👆 Tap a square to select its word, tap again to switch across or down
+💬 Your clue sits right above the keyboard, with arrows to jump between clues
+📋 Tap the clue bar for the full list
+
+New to crosswords? Start with the Bitsy. Tell us your time 👇
+
+Free on the App Store. Link in bio, or search “Pico: Daily Puzzles”.
+
+#PicoPuzzles #DailyPuzzle #PuzzleGames #BrainGames #Crossword #CrosswordPuzzle #Crosswords

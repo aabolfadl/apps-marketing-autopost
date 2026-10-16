@@ -1,0 +1,13 @@
+If you have ever tried to log a circuit in a gym app, you have probably given up and typed it into a note instead.
+
+Eight kinds of block, all first class: superset, giant set, circuit, complex, pyramid, EMOM, AMRAP and interval. Group the exercises, pick the type, and they get a coloured rail and A1 / A2 / A3 labels.
+
+Adding a round adds a set to every exercise in the block at once, sharing a round number. That is what lets you flip between round-major view while you are training the circuit and exercise-major view when you want to see how one movement progressed.
+
+Reorder whenever you want. The labels rewrite themselves, and sessions you already logged keep the labels they had on the day, so old workouts still read correctly.
+
+Every block type explains itself in the picker. You never have to already know what AMRAP stands for.
+
+Free on the App Store. Link in bio, or search "Lckdin; Gym & Workout Tracker".
+
+#Lckdin #WorkoutTracker #GymApp #TrainingLog #GymTips #TrainingTips #HowTo #Lifting #StrengthTraining #ProgressiveOverload #GymMotivation

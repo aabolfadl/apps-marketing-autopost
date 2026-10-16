@@ -1,0 +1,15 @@
+Most workout reminders are a daily notification at 6pm that you turn off by Thursday.
+
+Two modes here, so you can set the one that matches how you actually train:
+
+Every N days, for a rolling cycle. Or specific weekdays with a time each: Monday 6pm, Wednesday 7pm, Saturday 9am. Both configurations are stored side by side, so switching between them never throws the other one away.
+
+The reminder tells you what today is according to your split. It does not tell you off for missing yesterday.
+
+One detail worth knowing: the every-N-days mode counts from the calendar, not from the last time you opened the app. Opening the app does not restart the cycle, which is a bug in a surprising number of apps and turns a weekly reminder into a daily one.
+
+And iOS only holds 64 pending notifications before silently dropping the rest, so the app caps its own window and schedules what will really fire.
+
+Free on the App Store. Link in bio, or search "Lckdin; Gym & Workout Tracker".
+
+#Lckdin #WorkoutTracker #GymApp #TrainingLog #GymTips #TrainingTips #HowTo #iPhoneApps #AppStore #iOSApps

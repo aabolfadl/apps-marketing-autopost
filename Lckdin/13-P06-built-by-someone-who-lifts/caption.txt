@@ -1,0 +1,17 @@
+You can tell who wrote an app by what it gets right when nobody is looking.
+
+Left and right split into separate rows, with separate values, and nothing ever averages them, because no arithmetic turns 8 reps left and 7 right into one honest number.
+
+Prefilled targets from a plan render grey, as placeholders. Nothing counts until you confirm the set you actually did, so your history never contains a workout that did not happen.
+
+Every session stores the local date it happened on, fixed at the moment you started. Fly across timezones and last Tuesday stays last Tuesday.
+
+Delete a session that held a personal record and the previous holder is restored, by replaying your history. Restore it and the PR comes back.
+
+One set row renders fifteen different kinds of exercise, showing only the fields that one needs, so a plank never asks you for a weight.
+
+None of that is a headline feature. All of it is why the numbers stay true.
+
+Free on the App Store. Link in bio, or search "Lckdin; Gym & Workout Tracker".
+
+#Lckdin #WorkoutTracker #GymApp #TrainingLog #Lifting #StrengthTraining #ProgressiveOverload #GymMotivation #iPhoneApps #AppStore #iOSApps

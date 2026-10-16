@@ -1,0 +1,12 @@
+Wrong category? Fix it from the Lock Screen 🔓
+
+When Cents logs a bank SMS, you get a notification. Long-press it and you’ll see:
+🗑️ Discard
+🏷️ three category buttons
+
+Choose which three in Settings › Notification buttons (or let Cents pick your most-used).
+
+Change a vendor’s category once and Cents asks: “Always use Groceries for CARREFOUR?” Say yes and it remembers.
+Free on the App Store. Link in bio, or search “Cents: Finance Tracker”.
+
+#CentsApp #PersonalFinance #BudgetingApp #MoneyTips #iPhoneTips #ShortcutsApp

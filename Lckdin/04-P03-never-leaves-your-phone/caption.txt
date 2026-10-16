@@ -1,0 +1,11 @@
+"We take your privacy seriously" is a sentence written by companies that have your data.
+
+Lckdin; has no account. There is nothing to sign up for, which means there is no server holding your training log, your bodyweight or your progress photos. They sit in a database on your phone. A breach somewhere else cannot reach them, because there is no copy anywhere else.
+
+And you can leave whenever you like. Export the whole thing as JSON, CSV or the raw database file. Every row, not a summary.
+
+Full disclosure, because a privacy claim with no exceptions is a lie: the Progress tab shows non-personalised ads, and that is how a free app with no account pays for itself. No ad code runs while you train, or anywhere near a photo or a body measurement. Nothing you log is ever sent anywhere.
+
+Free on the App Store. Link in bio, or search "Lckdin; Gym & Workout Tracker".
+
+#Lckdin #WorkoutTracker #GymApp #TrainingLog #PrivacyFirst #OfflineFirst #YourData #iPhoneApps #AppStore #iOSApps

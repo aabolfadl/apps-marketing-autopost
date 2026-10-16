@@ -1,0 +1,13 @@
+Before you put three years of training into any app, ask what happens if you lose the phone.
+
+Here is the answer. Export everything as JSON (complete and re-importable), CSV (for your own spreadsheet) or the raw SQLite database. Every row of every table, not a summary.
+
+Importing shows you a diff before it writes anything, so you can see exactly what would be added and changed. Then it runs as a single transaction: all of it lands, or none of it does. No half-restored history.
+
+Day to day, deleting a session sends it to Recently Deleted for thirty days. Restore it and your personal records are recalculated, so a record that session held comes back with it.
+
+Takes about ten seconds. Settings, Export, pick a format, send it to yourself. Put the file wherever you like, the app never sees where it goes.
+
+Free on the App Store. Link in bio, or search "Lckdin; Gym & Workout Tracker".
+
+#Lckdin #WorkoutTracker #GymApp #TrainingLog #PrivacyFirst #OfflineFirst #YourData #GymTips #TrainingTips #HowTo

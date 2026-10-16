@@ -1,0 +1,15 @@
+Stop typing your expenses. Your bank already texts you every one of them. 🏦➡️📲
+
+Here’s the 1-minute setup that makes Cents log them automatically:
+
+1️⃣ Shortcuts app › Automation › + › Message
+2️⃣ “Message Contains” your bank’s phrase + Run Immediately
+3️⃣ New Blank Automation › add “Record Bank Message” (under Cents)
+4️⃣ Set its Message to “Shortcut Input” › Done
+
+That’s it. Card payments, Instapay and wallet transfers are logged before you’ve unlocked your phone. It all happens on your iPhone; nothing is sent anywhere.
+
+💾 Save this so you have it tonight.
+Free on the App Store. Link in bio, or search “Cents: Finance Tracker”.
+
+#CentsApp #PersonalFinance #BudgetingApp #MoneyTips #iPhoneTips #ShortcutsApp #Instapay #Egypt

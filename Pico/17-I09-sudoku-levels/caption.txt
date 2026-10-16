@@ -1,0 +1,15 @@
+Easy to Evil: what actually changes? 🔢
+
+🟢 Easy: singles, the only number that fits
+🟡 Medium: pairs
+🟠 Hard: triples
+🔴 Master: fish patterns like the X-Wing
+⚫ Evil: chains of “if this, then that”
+
+Pico rates every board by the logic it takes, not just the number of clues. So a Master is always a Master.
+
+What’s your level? 👇
+
+Free on the App Store. Link in bio, or search “Pico: Daily Puzzles”.
+
+#PicoPuzzles #DailyPuzzle #PuzzleGames #BrainGames #Sudoku #SudokuPuzzle #SudokuTips #Logic

@@ -1,0 +1,59 @@
+name: Post to Instagram
+
+on:
+  schedule:
+    # Every 15 minutes from 16:05 to 21:50 UTC: 18:05-23:50 Cairo in winter, 19:05-00:50 in summer.
+    # That covers both posting times (20:00 and 21:30) plus their 150-minute late window.
+    # The script decides what is actually due, so extra runs do nothing.
+    - cron: "5,20,35,50 16-21 * * *"
+  workflow_dispatch:
+    inputs:
+      command:
+        description: What to do
+        type: choice
+        options: [run, status, plan, post-now, retry-facebook, refresh]
+        default: run
+      app:
+        description: App folder, for post-now and retry-facebook (Cents, Lckdin, Pico, Trivial)
+        required: false
+      number:
+        description: Post number, for retry-facebook (optional for post-now), e.g. 04
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poster
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: automation/requirements.txt
+
+      - run: pip install -r automation/requirements.txt
+
+      - name: Post
+        env:
+          TOKENS_KEY: ${{ secrets.TOKENS_KEY }}
+          COMMAND: ${{ inputs.command || 'run' }}
+          APP: ${{ inputs.app }}
+          NUMBER: ${{ inputs.number }}
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          case "$COMMAND" in
+            post-now|retry-facebook) python automation/poster.py "$COMMAND" "$APP" ${NUMBER:+--number "$NUMBER"} ;;
+            *) python automation/poster.py "$COMMAND" ;;
+          esac

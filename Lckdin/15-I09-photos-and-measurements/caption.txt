@@ -1,0 +1,13 @@
+The problem with progress photos is never taking the first one. It is taking the second one from the same spot.
+
+Lckdin; shows your previous photo faintly over the viewfinder, so you can match the pose. Then you can drag a slider between any two dates, or play the whole set as a time-lapse.
+
+17 measurement types are built in and you can add your own. One reading per type per day, so correcting a number replaces it rather than polluting the average. Clear a field and it deletes that day's reading instead of storing a zero.
+
+Where they live matters: inside the app, never in your photo library, so they cannot surface in a shared album or an automatic backup. Location data is stripped by re-encoding every photo. You can lock the whole section behind Face ID, and the lock removes the screen rather than blurring it, so it stays out of the app switcher too.
+
+One more thing, deliberately: no goal weights, no BMI verdicts, no green bands, and no congratulating you when the number goes down. It shows you your numbers and your trend and keeps its opinions to itself.
+
+Free on the App Store. Link in bio, or search "Lckdin; Gym & Workout Tracker".
+
+#Lckdin #WorkoutTracker #GymApp #TrainingLog #ProgressPhotos #BodyRecomposition #TrackYourProgress #PrivacyFirst #OfflineFirst #YourData

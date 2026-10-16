@@ -1,0 +1,11 @@
+A drop set is one set taken past failure. It is not four sets.
+
+Most trackers cannot tell the difference, so you log the drop as three extra sets and your weekly volume quietly inflates. Every number built on top of that, your sets per muscle, your heatmap, your load trend, inherits the error.
+
+Hold a set in Lckdin; and attach the technique: drop set, rest-pause, cluster, myo-reps or mechanical drop. The segments sit indented under the parent set, each with its own weight and reps, and the whole chain counts as one hard set.
+
+Chains also never nest. You cannot attach a drop set to a drop set, and the menu hides the option instead of greying it out, because there are already enough ways to make a mess of your own data.
+
+Free on the App Store. Link in bio, or search "Lckdin; Gym & Workout Tracker".
+
+#Lckdin #WorkoutTracker #GymApp #TrainingLog #GymTips #TrainingTips #HowTo #Lifting #StrengthTraining #ProgressiveOverload #GymMotivation #EvidenceBasedFitness #TrainingScience #Hypertrophy

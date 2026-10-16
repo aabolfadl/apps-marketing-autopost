@@ -1,0 +1,13 @@
+{
+  "timezone": "Africa/Cairo",
+  "anchor_date": "2026-10-17",
+  "cycle_days": 3,
+  "late_window_minutes": 150,
+  "graph_api_version": "v25.0",
+  "apps": {
+    "Lckdin": { "instagram": "lckdinapp", "phase": 0, "time": "20:00", "enabled": true },
+    "Pico": { "instagram": "pico.puzzles", "phase": 1, "time": "21:30", "enabled": true },
+    "Cents": { "instagram": "cents.finance", "phase": 2, "time": "20:00", "enabled": true },
+    "Trivial": { "instagram": "trivial.app", "phase": 2, "time": "21:30", "enabled": true }
+  }
+}
