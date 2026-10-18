@@ -9,5 +9,16 @@
       "size_check": "ok, 4:5 at 1080x1350"
     },
     "facebook": null
+  },
+  {
+    "app": "Pico",
+    "post": "01-P01-meet-pico",
+    "posted_at": "2026-10-18T21:35:47+03:00",
+    "instagram": {
+      "media_id": "18174716266407524",
+      "permalink": "https://www.instagram.com/p/DepVxG6oBuD/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": null
   }
 ]
