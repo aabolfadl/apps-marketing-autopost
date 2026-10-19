@@ -20,5 +20,16 @@
       "size_check": "ok, 4:5 at 1080x1350"
     },
     "facebook": null
+  },
+  {
+    "app": "Trivial",
+    "post": "01-P01-meet-trivial",
+    "posted_at": "2026-10-20T00:00:17+03:00",
+    "instagram": {
+      "media_id": "18113769146156303",
+      "permalink": "https://www.instagram.com/p/DesLG-6Cb3R/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": null
   }
 ]
