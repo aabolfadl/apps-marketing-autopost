@@ -34,5 +34,17 @@
       "size_check": "ok, 4:5 at 1080x1350"
     },
     "facebook": null
+  },
+  {
+    "app": "Pico",
+    "post": "02-P02-app-store-poster",
+    "posted_at": "2026-10-21T23:03:59+03:00",
+    "slot": "2026-10-21T21:30:00+03:00",
+    "instagram": {
+      "media_id": "18107519218979595",
+      "permalink": "https://www.instagram.com/p/DexOPyUAf3T/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": null
   }
 ]

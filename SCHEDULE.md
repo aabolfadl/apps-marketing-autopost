@@ -7,13 +7,12 @@ Each app posts on one day, rests 2, then posts again. If a posting day is missed
 | App | Account | Time (Cairo) | Posts left | Last automated post | Final post |
 | --- | --- | --- | --- | --- | --- |
 | Lckdin | @lckdinapp | 20:00 | 23 | Sat 17 Oct 2026 | Mon 28 Dec 2026 |
-| Pico | @pico.puzzles | 21:30 | 25 | Sun 18 Oct 2026 | Fri 01 Jan 2027 |
+| Pico | @pico.puzzles | 21:30 | 24 | Wed 21 Oct 2026 | Fri 01 Jan 2027 |
 | Cents | @cents.finance | 20:00 | 22 | none yet | Thu 24 Dec 2026 |
 | Trivial | @trivial.app | 21:30 | 13 | Mon 19 Oct 2026 | Fri 27 Nov 2026 |
 
 | Date | Day | Time (Cairo) | App | Post |
 | --- | --- | --- | --- | --- |
-| 2026-10-21 | Wed | 21:30 | Pico | 02-P02-app-store-poster |
 | 2026-10-22 | Thu | 20:00 | Cents | 04-P03-free-means-free |
 | 2026-10-22 | Thu | 21:30 | Trivial | 02-P02-forever-free |
 | 2026-10-23 | Fri | 20:00 | Lckdin | 02-P02-app-store-poster |
