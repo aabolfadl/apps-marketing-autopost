@@ -72,8 +72,11 @@ def stamp(moment):
 # Publishing -----------------------------------------------------------------------------------
 
 
-def publish_post(config, plan, app, post, tokens, log):
-    """Publishes one post to Instagram, then Facebook if a Page is connected, and records it."""
+def publish_post(config, plan, app, post, tokens, log, slot=None):
+    """Publishes one post to Instagram, then Facebook if a Page is connected, and records it.
+
+    `slot` is the scheduled time it is going out for; manual posts have none.
+    """
     issues = content.problems(post)
     if issues:
         raise RuntimeError("not publishable: " + "; ".join(issues))
@@ -98,6 +101,7 @@ def publish_post(config, plan, app, post, tokens, log):
         "app": app,
         "post": post.name,
         "posted_at": stamp(plan.now()),
+        "slot": stamp(slot) if slot else None,
         "instagram": {"media_id": media_id, "permalink": permalink},
         "facebook": None,
     }
@@ -322,7 +326,7 @@ def cmd_run(args):
             warn(f"{app}: {post.name} is due but Instagram is not connected yet (see SETUP.md)")
             continue
         try:
-            publish_post(config, plan, app, post, tokens, log)
+            publish_post(config, plan, app, post, tokens, log, slot=plan.slot(app, now.date()))
             published.append(f"{app} {post.number}")
         except (meta.MetaError, RuntimeError, requests.RequestException, OSError) as e:
             failures.append(f"{app} {post.name}: {e}")

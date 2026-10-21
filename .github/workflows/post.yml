@@ -2,6 +2,9 @@ name: Post to Instagram
 
 on:
   schedule:
+    # Backup only. GitHub delays or drops scheduled runs when it's busy (this one fired 2-3 times a day
+    # and never at 20:00), so the on-time runs come from cron-job.org calling workflow_dispatch at the
+    # posting times. ON-TIME-POSTING.md has that setup.
     # Every 15 minutes from 16:05 to 21:50 UTC: 18:05-23:50 Cairo in winter, 19:05-00:50 in summer.
     # That covers both posting times (20:00 and 21:30) plus their 150-minute late window.
     # The script decides what is actually due, so extra runs do nothing.

@@ -91,8 +91,10 @@ class PostLog:
         return matches[-1] if matches else None
 
     def last_day(self, app, tz):
+        """The posting day of the app's latest post. A late post that went out after midnight counts
+        for the day it was scheduled, so it doesn't push the next post back a cycle."""
         days = [
-            datetime.fromisoformat(e["posted_at"]).astimezone(tz).date()
+            datetime.fromisoformat(e.get("slot") or e["posted_at"]).astimezone(tz).date()
             for e in self.entries
             if e["app"] == app and e.get("posted_at")
         ]
