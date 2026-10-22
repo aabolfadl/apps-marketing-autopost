@@ -58,5 +58,17 @@
       "size_check": "ok, 4:5 at 1080x1350"
     },
     "facebook": null
+  },
+  {
+    "app": "Trivial",
+    "post": "02-P02-forever-free",
+    "posted_at": "2026-10-22T21:31:02+03:00",
+    "slot": "2026-10-22T21:30:00+03:00",
+    "instagram": {
+      "media_id": "18109841264228050",
+      "permalink": "https://www.instagram.com/p/DezoaS5mdeP/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": null
   }
 ]
