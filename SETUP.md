@@ -4,7 +4,7 @@ Everything below is a one-off. When it's done, posts go out automatically from G
 
 Do the parts in order: **1 → 2 → 3 → 4**. Part 5 (Facebook) is optional and can wait.
 
-Run every command in this guide in **VS Code's terminal (PowerShell)**, opened on the `Marketing` folder.
+Run every command in this guide in **VS Code's terminal (PowerShell)**, opened on the `Marketing\Social Media Posts` folder.
 
 ---
 
@@ -163,6 +163,7 @@ That's it. From now on:
 
 ## Part 5 (optional): Also post to Facebook Pages
 
+
 ### 5.1 Create one Page per app
 
 1. Go to https://www.facebook.com/pages/create.
@@ -178,6 +179,12 @@ Don't turn on **Automatically share to Facebook** in Instagram's or Accounts Cen
 1. In the Meta dashboard, open your app, then **Use cases** → **Add use case**.
 2. Pick **Manage everything on your Page** and click **Add**.
 3. If Meta doesn't allow adding it to this app, create a second app with only that use case (same steps as 3.2) and use that app in 5.3 and 5.4.
+4. Back on **Use cases**, click **Customize** next to **Manage everything on your Page**. In its **Permissions** list, click **Add** next to each of these that isn't added yet:
+   - `pages_show_list`
+   - `pages_manage_posts`
+   - `pages_read_engagement`
+
+Graph API Explorer (step 5.4) only offers permissions that the app's use cases include. If you only see things like `pages_show_list`, `business_management` and `instagram_manage_comments` there, this step isn't done yet for the app you picked.
 
 ### 5.3 Note the App ID and secret
 
@@ -190,7 +197,7 @@ Don't turn on **Automatically share to Facebook** in Instagram's or Accounts Cen
 1. Open https://developers.facebook.com/tools/explorer.
 2. On the right, set **Meta App** to your app.
 3. Set **User or Page** to **Get User Access Token**.
-4. Under **Permissions**, add `pages_show_list`, `pages_manage_posts` and `pages_read_engagement`.
+4. Under **Permissions**, add `pages_show_list`, `pages_manage_posts` and `pages_read_engagement`. All three are required. If any is missing from the list, go back to step 5.2 (point 4), and check that **Meta App** is the app you added the Page use case to.
 5. Click **Generate Access Token**. In the Facebook popup, select **all 4 Pages**, then continue and allow.
 6. Copy the token from the **Access Token** box.
 7. In VS Code, run:
@@ -216,16 +223,16 @@ From then on, every Instagram post also goes to that app's Facebook Page, with t
 
 You don't have to do anything. Optional controls:
 
-| To... | Do this |
-| --- | --- |
-| See what's coming | Open [SCHEDULE.md](SCHEDULE.md) on GitHub. |
-| Post the next one right now | **Actions** → **Post to Instagram** → **Run workflow**. Set command `post-now` and app `Cents` (add a number to pick a specific post). |
-| Retry a failed Facebook post | **Run workflow** with command `retry-facebook`, the app, and the post number. |
-| Pause an app | In `automation/config.json`, set that app's `"enabled"` to `false`, then commit and push. |
-| Change a posting time | Edit `"time"` in `automation/config.json`. Apps that post on the same day must be at least an hour apart. Keep times between 19:00 and 21:30 Cairo, which the timer covers in both summer and winter time. |
-| Add more posts | Add a folder with the next number (for example `27-P14-...`) with numbered images and `caption.txt`, then commit and push. Run `python automation/poster.py check` first to catch problems. |
-| Mark something you posted by hand | Add its number to that app's `already-posted.txt` and push. The script also notices on its own if a caption is already on the account. |
-| Stop everything | **Actions** → **Post to Instagram** → **⋯** → **Disable workflow**. |
+| To...                             | Do this                                                                                                                                                                                                    |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| See what's coming                 | Open [SCHEDULE.md](SCHEDULE.md) on GitHub.                                                                                                                                                                 |
+| Post the next one right now       | **Actions** → **Post to Instagram** → **Run workflow**. Set command `post-now` and app `Cents` (add a number to pick a specific post).                                                                     |
+| Retry a failed Facebook post      | **Run workflow** with command `retry-facebook`, the app, and the post number.                                                                                                                              |
+| Pause an app                      | In `automation/config.json`, set that app's `"enabled"` to `false`, then commit and push.                                                                                                                  |
+| Change a posting time             | Edit `"time"` in `automation/config.json`. Apps that post on the same day must be at least an hour apart. Then add the new time to the cron-job.org job ([ON-TIME-POSTING.md](ON-TIME-POSTING.md)), or it will only go out whenever GitHub's backup timer runs. |
+| Add more posts                    | Add a folder with the next number (for example `27-P14-...`) with numbered images and `caption.txt`, then commit and push. Run `python automation/poster.py check` first to catch problems.                |
+| Mark something you posted by hand | Add its number to that app's `already-posted.txt` and push. The script also notices on its own if a caption is already on the account.                                                                     |
+| Stop everything                   | **Actions** → **Post to Instagram** → **⋯** → **Disable workflow**.                                                                                                                                        |
 
 Things the API can't do, so you still do them by hand:
 

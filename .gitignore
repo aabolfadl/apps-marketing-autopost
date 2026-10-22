@@ -1,6 +1,9 @@
 # The key that decrypts automation/tokens.json. It belongs in the TOKENS_KEY GitHub secret, never in the repo.
 automation/.tokens-key
 
+# Plain-text copies of tokens and the Meta app secret. Never commit these.
+automation/secrets/
+
 __pycache__/
 
 # Working files that should not be public: raw screenshots and the internal posting plans.
