@@ -181,7 +181,11 @@ def managed_pages(version, user_token):
     return Graph(FB_HOST, version, user_token).get("me/accounts", fields="id,name,access_token", limit=100).get("data", [])
 
 
+def token_info(version, token, app_id, app_secret):
+    """What Meta knows about a token: its scopes, expiry and validity."""
+    return Graph(FB_HOST, version, f"{app_id}|{app_secret}").get("debug_token", input_token=token)["data"]
+
+
 def token_expiry(version, token, app_id, app_secret):
     """Unix time the token expires, or 0 for never (what a Page token from a long-lived user token gives)."""
-    data = Graph(FB_HOST, version, f"{app_id}|{app_secret}").get("debug_token", input_token=token)["data"]
-    return data.get("expires_at", 0)
+    return token_info(version, token, app_id, app_secret).get("expires_at", 0)

@@ -97,7 +97,7 @@ def commit_and_push(paths, message):
             if attempt == 2:
                 raise
             # Someone pushed in the meantime (for example a manual edit); replay on top of it.
-            git("pull", "--rebase", "origin", branch)
+            git("pull", "--rebase", "--autostash", "origin", branch)
     return True
 
 

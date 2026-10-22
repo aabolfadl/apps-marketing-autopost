@@ -34,6 +34,7 @@ from schedule import Plan
 SCHEDULE_FILE = store.ROOT / "SCHEDULE.md"
 REFRESH_EVERY = timedelta(days=7)
 REFRESH_URGENT = timedelta(days=14)
+PAGE_SCOPES = ("pages_show_list", "pages_manage_posts", "pages_read_engagement")
 IN_CI = os.environ.get("GITHUB_ACTIONS") == "true"
 
 
@@ -471,9 +472,17 @@ def cmd_add_facebook(args):
     short_token = getpass.getpass("User access token from Graph API Explorer (hidden): ").strip()
     try:
         user_token = meta.long_lived_user_token(version, app_id, app_secret, short_token)
+        scopes = meta.token_info(version, user_token, app_id, app_secret).get("scopes", [])
         pages = meta.managed_pages(version, user_token)
     except meta.MetaError as e:
         raise SystemExit(f"Meta refused: {e}")
+    missing = [scope for scope in PAGE_SCOPES if scope not in scopes]
+    if missing:
+        raise SystemExit(
+            f"That token doesn't have {', '.join(missing)}, so it can't post to the Pages. Nothing saved. "
+            "Add the 'Manage everything on your Page' use case and its permissions (SETUP.md, step 5.2), "
+            "then generate the token again."
+        )
     if not pages:
         raise SystemExit("That token sees no Pages. Make sure you ticked every Page when Facebook asked which ones to allow.")
     say("Pages this token can manage:")
