@@ -70,5 +70,20 @@
       "size_check": "ok, 4:5 at 1080x1350"
     },
     "facebook": null
+  },
+  {
+    "app": "Lckdin",
+    "post": "02-P02-app-store-poster",
+    "posted_at": "2026-10-23T20:00:29+03:00",
+    "slot": "2026-10-23T20:00:00+03:00",
+    "instagram": {
+      "media_id": "18132404590756749",
+      "permalink": "https://www.instagram.com/p/De2C1r3GhPI/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": {
+      "post_id": "1467052996486395_122097516837523768",
+      "permalink": "https://www.facebook.com/122097516699523768/posts/122097516837523768"
+    }
   }
 ]
