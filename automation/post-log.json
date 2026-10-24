@@ -85,5 +85,20 @@
       "post_id": "1467052996486395_122097516837523768",
       "permalink": "https://www.facebook.com/122097516699523768/posts/122097516837523768"
     }
+  },
+  {
+    "app": "Pico",
+    "post": "03-I01-getting-started",
+    "posted_at": "2026-10-24T21:31:05+03:00",
+    "slot": "2026-10-24T21:30:00+03:00",
+    "instagram": {
+      "media_id": "18111133046228351",
+      "permalink": "https://www.instagram.com/p/De4x_-pHSfb/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": {
+      "post_id": "1361405257059028_122105628549514319",
+      "permalink": "https://www.facebook.com/122105628045514319/posts/122105628549514319"
+    }
   }
 ]
