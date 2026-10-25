@@ -100,5 +100,20 @@
       "post_id": "1361405257059028_122105628549514319",
       "permalink": "https://www.facebook.com/122105628045514319/posts/122105628549514319"
     }
+  },
+  {
+    "app": "Cents",
+    "post": "05-I02-log-in-5-seconds",
+    "posted_at": "2026-10-25T20:00:57+03:00",
+    "slot": "2026-10-25T20:00:00+03:00",
+    "instagram": {
+      "media_id": "18124553362926350",
+      "permalink": "https://www.instagram.com/p/De7MenfFsF0/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": {
+      "post_id": "1309086938964604_122106233055515385",
+      "permalink": "https://www.facebook.com/122106232635515385/posts/122106233055515385"
+    }
   }
 ]
