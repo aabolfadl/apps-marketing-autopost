@@ -130,5 +130,20 @@
       "post_id": "1439714012550931_122095208157531967",
       "permalink": "https://www.facebook.com/122095207785531967/posts/122095208157531967"
     }
+  },
+  {
+    "app": "Lckdin",
+    "post": "03-I01-first-workout",
+    "posted_at": "2026-10-26T20:00:56+03:00",
+    "slot": "2026-10-26T20:00:00+03:00",
+    "instagram": {
+      "media_id": "18193998529404153",
+      "permalink": "https://www.instagram.com/p/De9xRkAFQIs/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": {
+      "post_id": "1467052996486395_122100238233523768",
+      "permalink": "https://www.facebook.com/122097516699523768/posts/122100238233523768"
+    }
   }
 ]
