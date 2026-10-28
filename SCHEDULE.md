@@ -9,11 +9,10 @@ Each app posts on one day, rests 2, then posts again. If a posting day is missed
 | Lckdin | @lckdinapp | 20:00 | 21 | Mon 26 Oct 2026 | Mon 28 Dec 2026 |
 | Pico | @pico.puzzles | 21:30 | 22 | Tue 27 Oct 2026 | Fri 01 Jan 2027 |
 | Cents | @cents.finance | 20:00 | 19 | Wed 28 Oct 2026 | Thu 24 Dec 2026 |
-| Trivial | @trivial.app | 21:30 | 11 | Sun 25 Oct 2026 | Fri 27 Nov 2026 |
+| Trivial | @trivial.app | 21:30 | 10 | Wed 28 Oct 2026 | Fri 27 Nov 2026 |
 
 | Date | Day | Time (Cairo) | App | Post |
 | --- | --- | --- | --- | --- |
-| 2026-10-28 | Wed | 21:30 | Trivial | 04-P03-works-everywhere |
 | 2026-10-29 | Thu | 20:00 | Lckdin | 04-P03-never-leaves-your-phone |
 | 2026-10-30 | Fri | 21:30 | Pico | 05-I02-wordform-how-to |
 | 2026-10-31 | Sat | 20:00 | Cents | 08-P05-research-findings |

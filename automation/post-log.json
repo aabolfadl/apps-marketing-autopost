@@ -175,5 +175,20 @@
       "post_id": "1309086938964604_122107747353515385",
       "permalink": "https://www.facebook.com/122106232635515385/posts/122107747353515385"
     }
+  },
+  {
+    "app": "Trivial",
+    "post": "04-P03-works-everywhere",
+    "posted_at": "2026-10-28T21:31:51+03:00",
+    "slot": "2026-10-28T21:30:00+03:00",
+    "instagram": {
+      "media_id": "18078143954446791",
+      "permalink": "https://www.instagram.com/p/DfDFRBcG9BN/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": {
+      "post_id": "1439714012550931_122097641463531967",
+      "permalink": "https://www.facebook.com/122095207785531967/posts/122097641463531967"
+    }
   }
 ]
