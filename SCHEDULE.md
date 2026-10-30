@@ -1,6 +1,6 @@
 # Posting schedule
 
-Projected on Thursday 29 October 2026, Cairo time. Updated automatically after every post.
+Projected on Friday 30 October 2026, Cairo time. Updated automatically after every post.
 
 Each app posts on one day, rests 2, then posts again. If a posting day is missed, that app's remaining posts move to its next posting day.
 
