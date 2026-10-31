@@ -220,5 +220,20 @@
       "post_id": "1361405257059028_122108068029514319",
       "permalink": "https://www.facebook.com/122105628045514319/posts/122108068029514319"
     }
+  },
+  {
+    "app": "Cents",
+    "post": "08-P05-research-findings",
+    "posted_at": "2026-10-31T20:00:54+02:00",
+    "slot": "2026-10-31T20:00:00+02:00",
+    "instagram": {
+      "media_id": "18201185527339790",
+      "permalink": "https://www.instagram.com/p/DfKwHFllBMO/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": {
+      "post_id": "1309086938964604_122109073023515385",
+      "permalink": "https://www.facebook.com/122106232635515385/posts/122109073023515385"
+    }
   }
 ]
