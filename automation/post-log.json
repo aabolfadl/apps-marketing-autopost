@@ -265,5 +265,20 @@
       "post_id": "1467052996486395_122105765013523768",
       "permalink": "https://www.facebook.com/122097516699523768/posts/122105765013523768"
     }
+  },
+  {
+    "app": "Pico",
+    "post": "06-P04-no-paywall",
+    "posted_at": "2026-11-02T21:31:02+02:00",
+    "slot": "2026-11-02T21:30:00+02:00",
+    "instagram": {
+      "media_id": "17959737729018220",
+      "permalink": "https://www.instagram.com/p/DfQEA1NjxQg/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": {
+      "post_id": "1361405257059028_122109114333514319",
+      "permalink": "https://www.facebook.com/122105628045514319/posts/122109114333514319"
+    }
   }
 ]
