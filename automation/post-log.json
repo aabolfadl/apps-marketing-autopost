@@ -295,5 +295,20 @@
       "post_id": "1309086938964604_122110147605515385",
       "permalink": "https://www.facebook.com/122106232635515385/posts/122110147605515385"
     }
+  },
+  {
+    "app": "Trivial",
+    "post": "06-P04-trivia-night",
+    "posted_at": "2026-11-03T21:31:45+02:00",
+    "slot": "2026-11-03T21:30:00+02:00",
+    "instagram": {
+      "media_id": "18058943873801133",
+      "permalink": "https://www.instagram.com/p/DfSo5GJCeUO/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": {
+      "post_id": "1439714012550931_122102824131531967",
+      "permalink": "https://www.facebook.com/122095207785531967/posts/122102824131531967"
+    }
   }
 ]
