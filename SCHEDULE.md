@@ -1,19 +1,18 @@
 # Posting schedule
 
-Projected on Friday 06 November 2026, Cairo time. Updated automatically after every post.
+Projected on Saturday 07 November 2026, Cairo time. Updated automatically after every post.
 
 Each app posts on one day, rests 2, then posts again. If a posting day is missed, that app's remaining posts move to its next posting day.
 
 | App | Account | Time (Cairo) | Posts left | Last automated post | Final post |
 | --- | --- | --- | --- | --- | --- |
-| Lckdin | @lckdinapp | 20:00 | 18 | Wed 04 Nov 2026 | Mon 28 Dec 2026 |
+| Lckdin | @lckdinapp | 20:00 | 17 | Sat 07 Nov 2026 | Mon 28 Dec 2026 |
 | Pico | @pico.puzzles | 21:30 | 19 | Thu 05 Nov 2026 | Fri 01 Jan 2027 |
 | Cents | @cents.finance | 20:00 | 16 | Fri 06 Nov 2026 | Thu 24 Dec 2026 |
 | Trivial | @trivial.app | 21:30 | 7 | Fri 06 Nov 2026 | Fri 27 Nov 2026 |
 
 | Date | Day | Time (Cairo) | App | Post |
 | --- | --- | --- | --- | --- |
-| 2026-11-07 | Sat | 20:00 | Lckdin | 07-P04-the-heatmap |
 | 2026-11-08 | Sun | 21:30 | Pico | 08-P05-eighteen-dailies |
 | 2026-11-09 | Mon | 20:00 | Cents | 11-I05-track-a-gameya |
 | 2026-11-09 | Mon | 21:30 | Trivial | 08-I04-build-a-quiz-board |
