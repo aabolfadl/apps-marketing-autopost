@@ -460,5 +460,20 @@
       "post_id": "1361405257059028_122111757027514319",
       "permalink": "https://www.facebook.com/122105628045514319/posts/122111757027514319"
     }
+  },
+  {
+    "app": "Cents",
+    "post": "12-P07-where-did-my-salary-go",
+    "posted_at": "2026-11-12T20:01:09+02:00",
+    "slot": "2026-11-12T20:00:00+02:00",
+    "instagram": {
+      "media_id": "18419022793084623",
+      "permalink": "https://www.instagram.com/p/DfpprjnI_Do/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": {
+      "post_id": "1309086938964604_122113271925515385",
+      "permalink": "https://www.facebook.com/122106232635515385/posts/122113271925515385"
+    }
   }
 ]
