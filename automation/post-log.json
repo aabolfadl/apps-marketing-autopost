@@ -700,5 +700,20 @@
       "post_id": "1361405257059028_122115091719514319",
       "permalink": "https://www.facebook.com/122105628045514319/posts/122115091719514319"
     }
+  },
+  {
+    "app": "Cents",
+    "post": "16-P09-everything-you-get",
+    "posted_at": "2026-11-24T20:01:08+02:00",
+    "slot": "2026-11-24T20:00:00+02:00",
+    "instagram": {
+      "media_id": "18142144051629542",
+      "permalink": "https://www.instagram.com/p/DgIjNlIGEjl/",
+      "size_check": "ok, 4:5 at 1080x1350"
+    },
+    "facebook": {
+      "post_id": "1309086938964604_122116998171515385",
+      "permalink": "https://www.facebook.com/122106232635515385/posts/122116998171515385"
+    }
   }
 ]
